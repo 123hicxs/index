@@ -1,0 +1,651 @@
+.bg {
+    background: linear-gradient(to bottom, #1F0249 10%, #843AF7 55%, #200247 90%);
+    padding-top: 40rem;
+    padding-bottom: 160rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    position: relative;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+.logo-container {
+    display: flex;
+    text-align: center;
+    margin-bottom: 137rem;
+    position: relative;
+    z-index: 1;
+}
+
+.logo {
+    width: 41rem;
+    height: 41rem;
+    transition: transform 0.5s linear 0s;
+}
+
+.nav {
+    display: flex;
+    position: absolute;
+    font-size: 14rem;
+    top: 10rem;
+    color: white;
+    width: 246rem;
+    justify-content: center;
+    left: -84rem;
+    opacity: 0;
+    transition: opacity 0.3s linear 0.2s;
+}
+
+@media screen and (min-width:640px) {
+    .logo-container:hover .logo-left {
+        transform: translateX(-140rem);
+    }
+    .logo-container:hover .logo-right {
+        transform: translateX(140rem);
+    }
+}
+
+.logo-container:hover .nav {
+    opacity: 1;
+}
+
+.nav-link {
+    padding: 0 4rem;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    padding: 0 4rem;
+    color: #F98536;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 187rem;
+}
+
+.contact-us__btn {
+    display: block;
+    background: linear-gradient(90deg, #862bfc, #F98536);
+    border-radius: 10rem;
+    width: 270rem;
+    height: 68rem;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60rem;
+    font-size: 24rem;
+    margin: 40rem auto 0;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.contact-us__btn p:last-child {
+    display: none;
+}
+
+.brand__img {
+    width: 826rem;
+    height: 143rem;
+    margin-bottom: 31rem;
+}
+
+.about-us {
+    background-color: rgba(196, 196, 196, 0.1);
+    padding-top: 64rem;
+    padding-bottom: 64rem;
+    padding-left: 168rem;
+    padding-right: 168rem;
+    margin-top: -60rem;
+    width: 849rem;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px 1px rgba(253, 213, 49, 0.4);
+    backdrop-filter: blur(10px);
+    z-index: 2;
+}
+
+.location__slash {
+    width: 30rem;
+}
+
+.about-us__header {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 47rem; */
+}
+
+.about-us__header__right {
+    font-size: 24rem;
+}
+
+.about-us__header__title {
+    color: white;
+}
+
+.about-us__slash {
+    width: 30rem;
+}
+
+.about-us__header__subtitle {
+    color: #F98536;
+}
+
+.about-us__body {
+    color: white;
+    font-size: 18rem;
+}
+
+.about-us__body div {
+    margin-bottom: 36rem;
+}
+
+.pattern-container {
+    position: absolute;
+    top: 24rem;
+}
+
+.pattern {
+    width: 100vw;
+}
+
+.L-container {
+    position: absolute;
+    top: 316rem;
+}
+
+.shadow-brand-container {
+    bottom: 0;
+    position: absolute;
+    width: 100vw;
+}
+
+.product {
+    background: linear-gradient(225deg, #200247, #F98536 60%, #FDD531);
+    width: 100vw;
+    padding-top: 149rem;
+    padding-bottom: 144rem;
+    padding-left: 220rem;
+    padding-right: 220rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.philosophy-title {
+    color: white;
+    font-size: 48rem;
+    text-shadow: -5px 2px 10px #fff;
+}
+
+.enhen {
+    position: absolute;
+}
+
+.ouhou {
+    position: absolute;
+}
+
+.philosophy-title .philosophy-title__textone {
+    position: relative;
+    left: -5px;
+    opacity: .2;
+    text-shadow: -10px 0px 10px #fff;
+}
+
+.philosophy-title .philosophy-title__texttwo {
+    position: relative;
+    left: 5px;
+    opacity: .9;
+    text-shadow: 0px 0px 10px #000;
+}
+
+.philosophy-desc {
+    font-size: 16rem;
+    color: white
+}
+
+.product-title {
+    color: white;
+    font-size: 24rem;
+}
+
+.product-card {
+    width: 850rem;
+    padding: 49rem 140rem 69rem;
+    /* background-color: rgba(253, 213, 49, 0.3); */
+    background: linear-gradient(125deg, transparent 40rem, rgba(253, 213, 49, 0.3) 40rem, rgba(253, 213, 49, 0.3) 100%);
+    box-shadow: 0px 4px 1px 0 rgba(0, 0, 0, 0.04);
+    backdrop-filter: blur(30px);
+    box-sizing: border-box;
+    border-right: 1px solid rgba(255, 215, 50, 1);
+    margin-top: 70rem;
+    border-radius: 15rem;
+    /* transform: rotate(0.5deg); */
+    position: relative;
+    z-index: 2;
+}
+
+.product-list {
+    font-size: 18rem;
+    color: white
+}
+
+.product-list__box {
+    color: white;
+    font-size: 18rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}
+
+.box {
+    display: flex;
+    border: 1px solid white;
+}
+
+.product-list__box .box-left {
+    width: 144rem;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 15rem;
+    margin-right: 20rem;
+    ;
+}
+
+.product-list__box .box-right {
+    width: 363rem;
+    padding: 15rem 30rem;
+    border: 1px solid white;
+    justify-content: space-between;
+}
+
+.feature-container {
+    margin-top: 60rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 18rem;
+}
+
+.feature-card {
+    position: relative;
+    background: rgba(253, 213, 49, 0.3);
+    box-shadow: 0px 4px 1px 1px rgba(48, 5, 73, 0.04);
+    backdrop-filter: blur(30px);
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 262rem;
+    height: 262rem;
+    z-index: 2;
+}
+
+.feature-card__img {
+    width: 162rem;
+    height: 119rem;
+    position: absolute;
+    z-index: 0;
+    top: 72rem;
+}
+
+.feature-card__title {
+    z-index: 2;
+}
+
+.feature-card__subtitle {
+    font-weight: bold;
+    z-index: 2;
+}
+
+.slash-revert {
+    position: absolute;
+    top: 526rem;
+    z-index: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.join-us {
+    width: 100vw;
+    background: linear-gradient(330deg, #32027E, #843AF7 67.61%);
+    position: relative;
+    z-index: 2;
+    padding-bottom: 201rem;
+}
+
+.join-us__header {
+    padding-top: 166rem;
+    padding-left: 200rem;
+    width: 890rem;
+    /* position: relative; */
+    color: white;
+    text-align: center;
+    /* display: flex; */
+    padding-bottom: 106rem;
+}
+
+.join-us__title p:first-child {
+    font-size: 72rem;
+    line-height: 80rem;
+    font-weight: bold;
+}
+
+.join-us__title p:last-child {
+    font-size: 16rem;
+}
+
+.join-us__logo_university {
+    margin: 70rem 0;
+    width: 890rem;
+    height: 250rem;
+    /* background-color: #fff; */
+}
+
+.university_ul {
+    height: 150rem;
+    line-height: 150rem;
+}
+
+.university_ul li {
+    list-style: none;
+    float: left;
+    width: 10%;
+    margin-right: 5%;
+    height: 150rem;
+}
+
+.university_ul li:last-child {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+.university_ul li img {
+    width: 100%;
+}
+
+.berlin {
+    position: absolute;
+    bottom: 80rem;
+    right: -82rem;
+    font-size: 12rem;
+    color: #000;
+    writing-mode: vertical-lr;
+}
+
+.enterp_ul {
+    margin: 10rem 0;
+    height: 100rem;
+}
+
+.enterp_ul li {
+    float: left;
+    list-style: none;
+    height: 150rem;
+    width: 12%;
+    margin-left: 2%;
+}
+
+.enterp_ul li:first-child {
+    width: 25%;
+}
+
+.enterp_ul li:nth-child(2) {
+    width: 10%;
+    position: relative;
+}
+
+.enterp_ul li:last-child {
+    width: 17%;
+}
+
+.enterp_ul li img {
+    width: 100%;
+}
+
+.Alibaba {
+    font-size: 16rem;
+    text-align: center;
+    font-weight: 1000;
+    position: absolute;
+    top: 15%;
+    /* background-color: red; */
+}
+
+.join-us_btnD {
+    text-align: center;
+}
+
+.join-us__btn {
+    display: block;
+    background: linear-gradient(90deg, #F98536, #862bfc);
+    border-radius: 10rem;
+    width: 270rem;
+    height: 68rem;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60rem;
+    font-size: 24rem;
+    margin: 40rem auto;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.join-us__btn p:nth-child(2) {
+    display: none;
+}
+
+.join-us__btn p:last-child {
+    display: none;
+}
+
+.slash-2 {
+    width: 478rem;
+    height: 441rem;
+}
+
+.slash-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.3;
+}
+
+.join-us__map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join-us__map-card {
+    background-image: url(./img/location-bg.svg);
+    width: 897rem;
+    height: 413rem;
+    padding-top: 65rem;
+    padding-left: 97rem;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    z-index: 2;
+}
+
+.map-card__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 38rem;
+    font-size: 24rem;
+    color: #F98536;
+    width: 283rem;
+}
+
+.location__desc {
+    color: white;
+    font-size: 18rem;
+    width: 363rem;
+}
+
+.mobile_location {
+    display: none;
+}
+
+.location__desc-1 {
+    margin-bottom: 18rem;
+}
+
+.location__point {
+    width: 116rem;
+    height: 72rem;
+    position: absolute;
+    top: 96rem;
+    right: 151rem;
+}
+
+.brand-bottom {
+    width: 100vw;
+    position: absolute;
+    bottom: 140rem;
+    z-index: 0;
+}
+
+.brand__subtitle {
+    color: #fff;
+    font-size: 24rem;
+    z-index: 5;
+    text-shadow: 0rem -1rem 6rem #fff;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 28rem 194rem;
+    background-color: #36017E;
+}
+
+.footer-left {
+    /* width: 628rem; */
+    box-sizing: border-box;
+    padding-right: 120rem;
+}
+
+.footer__info {
+    font-size: 14rem;
+    margin-top: 24rem;
+    line-height: 24rem;
+}
+
+.footer-right {
+    flex-grow: 2;
+    font-size: 14rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right>a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:641px) {
+    .nav {
+        display: none;
+    }
+    .contact-us__btn p:first-child {
+        display: none;
+    }
+    .contact-us__btn p:nth-child(2) {
+        display: block;
+    }
+    .philosophy-title .philosophy-title__textone {
+        display: none;
+    }
+    .philosophy-title .philosophy-title__texttwo {
+        display: none;
+    }
+    .philosophy-desc div:first-child {
+        position: absolute;
+        writing-mode: vertical-lr;
+        height: 250rem;
+        font-size: 30rem;
+        opacity: .7;
+        z-index: 3;
+    }
+    .mobile_introduce {
+        display: none;
+    }
+    .feature-card__subtitle {
+        display: none;
+    }
+    .join-us__btn p:last-child {
+        display: block;
+    }
+    .join-us__btn p:first-child {
+        display: none;
+    }
+    .join-us__title p:last-child {
+        font-size: 24rem;
+    }
+    .philosophy-title {
+        text-shadow: none;
+    }
+    .mobile_location {
+        display: block;
+    }
+    .feature-card__title {
+        font-size: 40rem;
+    }
+    .about-us__body div {
+        font-size: 30rem;
+    }
+    .box {
+        font-size: 30rem;
+    }
+    .mobile_box_it {
+        font-size: 22rem;
+    }
+    .mobile_location_it {
+        font-size: 30rem;
+    }
+    .brand__subtitle {
+        font-size: 40rem;
+    }
+}
+
+@media screen and (max-width:321px) {
+    .product-header {
+        display: none;
+    }
+    .mobile_location_hid {
+        display: none;
+    }
+    .join-us__btn p:first-child {
+        display: none;
+    }
+    .join-us__btn p:last-child {
+        display: block;
+    }
+    .location__desc-1 {
+        display: none;
+    }
+    .location__desc-2 {
+        display: none;
+    }
+    .footer {
+        display: none;
+    }
+}
